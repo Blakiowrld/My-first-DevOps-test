@@ -1,4 +1,4 @@
-#!bin/bash
+#!bash
 
 docker pull blakiowrld/my-nodejs-app:01
 
