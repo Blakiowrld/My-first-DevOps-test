@@ -47,8 +47,8 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/my-nodejs-app:latest .
-        docker push ${{ secrets.DOCKERHUB_USERNAME }}/my-nodejs-app:latest
+        docker build -t ${{ secrets.DOCKER_USERNAME }}/my-nodejs-app:latest .
+        docker push ${{ secrets.DOCKER_USERNAME }}/my-nodejs-app:latest
     # - name: Build and Push Docker Image
     #   uses: docker/build-push-action@v2
     #   with:
